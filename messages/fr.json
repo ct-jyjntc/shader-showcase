@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "Application v0",
+    "description": "Créé avec v0"
+  },
+  "header": {
+    "navigation": {
+      "features": "Fonctionnalités",
+      "pricing": "Tarifs",
+      "docs": "Documentation"
+    },
+    "login": "Connexion"
+  },
+  "hero": {
+    "badge": "✨ Nouvelle expérience Paper Shaders",
+    "heading": {
+      "beautiful": "Belles",
+      "shader": "Expériences",
+      "experiences": "de Shaders"
+    },
+    "description": "Créez des expériences visuelles époustouflantes avec notre technologie de shaders avancée. Éclairage interactif, animations fluides et beaux effets qui répondent à chacun de vos mouvements.",
+    "buttons": {
+      "pricing": "Tarifs",
+      "getStarted": "Commencer"
+    }
+  },
+  "pulsing": {
+    "text": "v0 est incroyable"
+  }
+}

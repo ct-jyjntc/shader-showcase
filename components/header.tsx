@@ -1,6 +1,11 @@
 "use client"
 
+import { useTranslations } from "next-intl"
+import LanguageSwitcher from "./language-switcher"
+
 export default function Header() {
+  const t = useTranslations("header")
+
   return (
     <header className="relative z-20 flex items-center justify-between p-6">
       {/* Logo */}
@@ -23,20 +28,21 @@ export default function Header() {
           href="#"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Features
+          {t("navigation.features")}
         </a>
         <a
           href="#"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Pricing
+          {t("navigation.pricing")}
         </a>
         <a
           href="#"
           className="text-white/80 hover:text-white text-xs font-light px-3 py-2 rounded-full hover:bg-white/10 transition-all duration-200"
         >
-          Docs
+          {t("navigation.docs")}
         </a>
+        <LanguageSwitcher />
       </nav>
 
       {/* Login Button Group with Arrow */}
@@ -47,7 +53,7 @@ export default function Header() {
           </svg>
         </button>
         <button className="px-6 py-2 rounded-full bg-white text-black font-normal text-xs transition-all duration-300 hover:bg-white/90 cursor-pointer h-8 flex items-center z-10">
-          Login
+          {t("login")}
         </button>
       </div>
     </header>
