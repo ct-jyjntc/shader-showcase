@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "v0 App",
+    "description": "Created with v0"
+  },
+  "header": {
+    "navigation": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "docs": "Docs"
+    },
+    "login": "Login"
+  },
+  "hero": {
+    "badge": "✨ New Paper Shaders Experience",
+    "heading": {
+      "beautiful": "Beautiful",
+      "shader": "Shader",
+      "experiences": "Experiences"
+    },
+    "description": "Create stunning visual experiences with our advanced shader technology. Interactive lighting, smooth animations, and beautiful effects that respond to your every move.",
+    "buttons": {
+      "pricing": "Pricing",
+      "getStarted": "Get Started"
+    }
+  },
+  "pulsing": {
+    "text": "v0 is amazing"
+  }
+}

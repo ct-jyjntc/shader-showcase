@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "title": "v0 应用",
+    "description": "由 v0 创建"
+  },
+  "header": {
+    "navigation": {
+      "features": "产品特性",
+      "pricing": "价格",
+      "docs": "文档"
+    },
+    "login": "登录"
+  },
+  "hero": {
+    "badge": "✨ 全新的 Paper Shader 体验",
+    "heading": {
+      "beautiful": "精美的",
+      "shader": "着色器",
+      "experiences": "体验"
+    },
+    "description": "借助我们先进的着色器技术打造令人惊艳的视觉体验。互动光效、顺滑动画和对每一次操作都能即时响应的绚丽效果。",
+    "buttons": {
+      "pricing": "价格",
+      "getStarted": "立即开始"
+    }
+  },
+  "pulsing": {
+    "text": "v0 太棒了"
+  }
+}

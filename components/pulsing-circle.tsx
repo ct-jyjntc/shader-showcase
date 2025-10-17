@@ -2,8 +2,11 @@
 
 import { PulsingBorder } from "@paper-design/shaders-react"
 import { motion } from "framer-motion"
+import { useTranslations } from "next-intl"
 
 export default function PulsingCircle() {
+  const t = useTranslations("pulsing")
+
   return (
     <div className="absolute bottom-8 right-8 z-30">
       <div className="relative w-20 h-20 flex items-center justify-center">
@@ -48,7 +51,7 @@ export default function PulsingCircle() {
           </defs>
           <text className="text-sm fill-white/80 instrument">
             <textPath href="#circle" startOffset="0%">
-              v0 is amazing • v0 is amazing • v0 is amazing • v0 is amazing •
+              {`${t("text")} • ${t("text")} • ${t("text")} • ${t("text")} •`}
             </textPath>
           </text>
         </motion.svg>
